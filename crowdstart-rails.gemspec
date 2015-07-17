@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'crowdstart/ruby/version'
+require 'crowdstart/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "crowdstart-rails"
-  spec.version       = Crowdstart::Ruby::VERSION
+  spec.version       = Crowdstart::Rails::VERSION
   spec.authors       = ["David Tai"]
   spec.email         = ["david@verus.io"]
 
