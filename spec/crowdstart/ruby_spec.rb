@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Crowdstart::Ruby do
+describe Crowdstart::Rails do
   it 'has a version number' do
-    expect(Crowdstart::Ruby::VERSION).not_to be nil
+    expect(Crowdstart::Rails::VERSION).not_to be nil
   end
 
   it 'does something useful' do
